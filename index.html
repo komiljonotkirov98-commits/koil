@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pizza Shop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#1E0C00] text-white overflow-x-hidden">
+  <header class="flex justify-between items-center px-16 py-6">
+    <img src="img/pizzashop.png" alt="">
+
+    <nav class="flex gap-10 text-gray-300">
+      <a class="hover:text-orange-500" href="#">Home</a>
+      <a class="hover:text-orange-500" href="#">Menu</a>
+      <a class="hover:text-orange-500" href="#">Events</a>
+      <a class="hover:text-orange-500" href="#">About us</a>
+    </nav>
+    <div class="flex items-center gap-4">
+      <button class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full font-semibold">
+        Log in
+      </button>
+      <div class="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center">
+        🛒
+      </div>
+    </div>
+  </header>
+  <section class="flex items-center justify-between px-16 mt-12">
+    <div class="max-w-xl">
+      <h1 class="text-6xl font-bold leading-tight">
+        The Fastest <br />
+        Pizza <span class="text-orange-500">⚡</span> Delivery
+      </h1>
+
+      <p class="text-gray-400 mt-6">
+        We will deliver juicy pizza for your family in 30 <br> minutes,  
+        if the courier is late - <span class="text-white">pizza is free!</span>
+      </p>
+
+      <div class="mt-8">
+        <p class="mb-3 text-gray-300">Cooking process:</p>
+
+        <div class="w-48 flex items-center justify-center border">
+          <img src="img/shourav-sheikh-a66sGfOnnqQ-unsplash 1.png" alt="">
+        </div>
+      </div>
+
+      <div class="flex gap-4 mt-10">
+        <button class="bg-orange-500 hover:bg-inherit  hover:text-orange-500 text-black px-8 py-3 rounded-full font-semibold">
+          To order
+        </button>
+
+        <button class="border border-orange-500 text-orange-500 px-8 py-3 rounded-full font-semibold hover:bg-orange-500 hover:text-black transition">
+          Pizza-Menu
+        </button>
+      </div>
+    </div>
+
+    <div class="relative">
+      <div class="w-45">
+        <img src="img/shourav-sheikh-xLfqx4Psf94-unsplash 1.png" class="w-[480px] rounded-[30px]"alt="Pizza"/>
+      </div>
+      <div class="absolute -top-8 -right-8 text-6xl">🍕</div>
+      <div class="absolute bottom-0 -left-10 text-6xl">🍟</div>
+    </div>
+  </section>
+  <h1 class="mt-20 text-4xl font-bold text-center mb-8">Menu</h1>
+    <div class="flex justify-center gap-4 mb-10 flex-wrap">
+      <button class="px-6 py-2 rounded-full bg-orange-500">Show All</button>
+      <button class="px-6 py-2 rounded-full border border-orange-500 text-orange-400">Meat</button>
+      <button class="px-6 py-2 rounded-full border border-orange-500 text-orange-400">Vegetarian</button>
+      <button class="px-6 py-2 rounded-full border border-orange-500 text-orange-400">Sea products</button>
+      <button class="px-6 py-2 rounded-full border border-orange-500 text-orange-400">Mushroom</button>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div class="bg-[#2a140b] rounded-2xl p-6 text-center">
+        <img src="img/pizza.png" class="w-40 mx-auto mb-4">
+        <h2 class="text-xl font-bold mb-2">Italian</h2>
+        <p class="text-sm text-gray-400 mb-4">Filling: onion, potato, tomato, <br> mushrooms, cheese, olives, meat...</p>
+
+        <div class="flex justify-center gap-3 mb-4">
+          <span class="px-3 py-1 border border-orange-500 rounded-full text-sm">22</span>
+          <span class="px-3 py-1 bg-orange-500 rounded-full text-sm">28</span>
+          <span class="px-3 py-1 border border-orange-500 rounded-full text-sm">33</span>
+        </div>
+
+        <div class="text-2xl font-bold mb-4">8,35 $</div>
+
+        <button class="bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded-full">
+          Order Now
+        </button>
+      </div>
+      <div class="bg-[#2a140b] rounded-2xl p-6 text-center">
+        <img src="img/pizza.png" class="w-40 mx-auto mb-4">
+        <h2 class="text-xl font-bold mb-2">Venecia</h2>
+        <p class="text-sm text-gray-400 mb-4">Filling: onion, potato, tomato, <br> mushrooms, cheese, olives, meat...</p>
+
+        <div class="flex justify-center gap-3 mb-4">
+          <span class="px-3 py-1 border border-orange-500 rounded-full text-sm">22</span>
+          <span class="px-3 py-1 bg-orange-500 rounded-full text-sm">28</span>
+          <span class="px-3 py-1 border border-orange-500 rounded-full text-sm">33</span>
+        </div>
+
+        <div class="text-2xl font-bold mb-4">7,35 $</div>
+
+        <button class="bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded-full">
+          Order Now
+        </button>
+      </div>
+
+      <div class="bg-[#2a140b] rounded-2xl p-6 text-center">
+        <img src="img/pizza.png" class="w-40 mx-auto mb-4">
+        <h2 class="text-xl font-bold mb-2">Meat</h2>
+        <p class="text-sm text-gray-400 mb-4">Filling: onion, potato, tomato, <br> mushrooms, cheese, olives, meat...</p>
+
+        <div class="flex justify-center gap-3 mb-4">
+          <span class="px-3 py-1 border border-orange-500 rounded-full text-sm">22</span>
+          <span class="px-3 py-1 bg-orange-500 rounded-full text-sm">28</span>
+          <span class="px-3 py-1 border border-orange-500 rounded-full text-sm">33</span>
+        </div>
+
+        <div class="text-2xl font-bold mb-4">9,35 $</div>
+
+        <button class="bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded-full">
+          Order Now
+        </button>
+      </div>
+
+      <div class="bg-[#2a140b] rounded-2xl p-6 text-center">
+        <img src="img/pizza.png" class="w-40 mx-auto mb-4">
+        <h2 class="text-xl font-bold mb-2">Cheese</h2>
+        <p class="text-sm text-gray-400 mb-4">Filling: onion, potato, tomato, <br> mushrooms, cheese, olives, meat...</p>
+
+        <div class="flex justify-center gap-3 mb-4">
+          <span class="px-3 py-1 border border-orange-500 rounded-full text-sm">22</span>
+          <span class="px-3 py-1 bg-orange-500 rounded-full text-sm">28</span>
+          <span class="px-3 py-1 border border-orange-500 rounded-full text-sm">33</span>
+        </div>
+
+        <div class="text-2xl font-bold mb-4">8,35 $</div>
+
+        <button class="bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded-full">
+          Order Now
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="text-center mt-12 flex justify-center">
+    <img src="img/Group 54.png" alt="">
+  </div>
+  <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div class="bg-[#2a140b] rounded-2xl p-6 text-center">
+        <img src="img/pizza.png" class="w-40 mx-auto mb-4">
+        <h2 class="text-xl font-bold mb-2">Italian</h2>
+        <p class="text-sm text-gray-400 mb-4">Filling: onion, potato, tomato, <br> mushrooms, cheese, olives, meat...</p>
+
+        <div class="flex justify-center gap-3 mb-4">
+          <span class="px-3 py-1 border border-orange-500 rounded-full text-sm">22</span>
+          <span class="px-3 py-1 bg-orange-500 rounded-full text-sm">28</span>
+          <span class="px-3 py-1 border border-orange-500 rounded-full text-sm">33</span>
+        </div>
+
+        <div class="text-2xl font-bold mb-4">8,35 $</div>
+
+        <button class="bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded-full">
+          Order Now
+        </button>
+      </div>
+      <div class="bg-[#2a140b] rounded-2xl p-6 text-center">
+        <img src="img/pizza.png" class="w-40 mx-auto mb-4">
+        <h2 class="text-xl font-bold mb-2">Venecia</h2>
+        <p class="text-sm text-gray-400 mb-4">Filling: onion, potato, tomato, <br> mushrooms, cheese, olives, meat...</p>
+
+        <div class="flex justify-center gap-3 mb-4">
+          <span class="px-3 py-1 border border-orange-500 rounded-full text-sm">22</span>
+          <span class="px-3 py-1 bg-orange-500 rounded-full text-sm">28</span>
+          <span class="px-3 py-1 border border-orange-500 rounded-full text-sm">33</span>
+        </div>
+
+        <div class="text-2xl font-bold mb-4">7,35 $</div>
+
+        <button class="bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded-full">
+          Order Now
+        </button>
+      </div>
+
+      <div class="bg-[#2a140b] rounded-2xl p-6 text-center">
+        <img src="img/pizza.png" class="w-40 mx-auto mb-4">
+        <h2 class="text-xl font-bold mb-2">Meat</h2>
+        <p class="text-sm text-gray-400 mb-4">Filling: onion, potato, tomato, <br> mushrooms, cheese, olives, meat...</p>
+
+        <div class="flex justify-center gap-3 mb-4">
+          <span class="px-3 py-1 border border-orange-500 rounded-full text-sm">22</span>
+          <span class="px-3 py-1 bg-orange-500 rounded-full text-sm">28</span>
+          <span class="px-3 py-1 border border-orange-500 rounded-full text-sm">33</span>
+        </div>
+
+        <div class="text-2xl font-bold mb-4">9,35 $</div>
+
+        <button class="bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded-full">
+          Order Now
+        </button>
+      </div>
+
+      <div class="bg-[#2a140b] rounded-2xl p-6 text-center">
+        <img src="img/pizza.png" class="w-40 mx-auto mb-4">
+        <h2 class="text-xl font-bold mb-2">Cheese</h2>
+        <p class="text-sm text-gray-400 mb-4">Filling: onion, potato, tomato, <br> mushrooms, cheese, olives, meat...</p>
+
+        <div class="flex justify-center gap-3 mb-4">
+          <span class="px-3 py-1 border border-orange-500 rounded-full text-sm">22</span>
+          <span class="px-3 py-1 bg-orange-500 rounded-full text-sm">28</span>
+          <span class="px-3 py-1 border border-orange-500 rounded-full text-sm">33</span>
+        </div>
+
+        <div class="text-2xl font-bold mb-4">8,35 $</div>
+
+        <button class="bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded-full">
+          Order Now
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+</html>
